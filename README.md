@@ -24,19 +24,19 @@ Trainees in AI bootcamps ask the same questions many times, often outside class 
 
 ```mermaid
 flowchart LR
-    subgraph Ingestion
-        A[Course files<br/>PDF / MD / TXT] --> B[Text splitter<br/>overlapping chunks]
-        B --> C[Multilingual embeddings<br/>sentence-transformers]
-        C --> D[(FAISS<br/>vector index)]
+    subgraph ingest["Ingestion"]
+        A["Course files: PDF, MD, TXT"] --> B["Text splitter"]
+        B --> C["Multilingual embeddings"]
+        C --> D[("FAISS vector index")]
     end
-    subgraph Question answering
-        Q[Trainee question] --> E[Retriever<br/>top-k similar chunks]
-        D --> E
-        E --> F[Prompt with numbered context]
-        F --> G[LLM]
-        G --> H[Answer + citations]
+    subgraph qa["Question answering"]
+        Q["Trainee question"] --> E["Retriever: top-k chunks"]
+        E --> F["Prompt with numbered context"]
+        F --> G["LLM"]
+        G --> H["Answer with citations"]
     end
-    UI[Streamlit chat UI] -->|POST /ask| API[FastAPI]
+    D --> E
+    UI["Streamlit chat UI"] -->|"POST /ask"| API["FastAPI"]
     API --> Q
     H --> API
 ```
