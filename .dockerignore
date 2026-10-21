@@ -6,5 +6,5 @@ venv
 storage
 .cache
 tests
-_pycache_
+__pycache__
 *.pyc
