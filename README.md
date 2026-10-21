@@ -5,6 +5,7 @@ An AI teaching assistant that answers trainees' questions **from the course mate
 > مساعد تعليمي ذكي يجيب على أسئلة المتدربين من محتوى المقرر فقط، بالعربية أو الإنجليزية، مع ذكر المصادر.
 
 [![CI](https://github.com/nora-albabtain/course-assistant-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/nora-albabtain/course-assistant-rag/actions/workflows/ci.yml)
+
 ---
 
 ## Why this project?
