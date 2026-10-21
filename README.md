@@ -11,11 +11,12 @@ An AI teaching assistant that answers trainees' questions **from the course mate
 ## Why this project?
 
 Trainees in AI bootcamps ask the same questions many times, often outside class hours. General chatbots answer confidently but may contradict the course or invent facts. This assistant uses **Retrieval-Augmented Generation (RAG)** so every answer is grounded in the instructor's own slides and notes, with numbered citations trainees can check.
+
 ## Demo
 
 | Arabic question | English question |
 |---|---|
-| ![Arabic demo](demo-arabic.png) | ![English demo](demo-english.png) |
+| ![Arabic demo](WhatsApp%20Image%202026-10-21%20at%202.39.55%20PM.jpeg) | ![English demo](WhatsApp%20Image%202026-10-21%20at%202.39.57%20PM.jpeg) |
 
 ## Features
 
