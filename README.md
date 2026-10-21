@@ -4,8 +4,7 @@ An AI teaching assistant that answers trainees' questions **from the course mate
 
 > مساعد تعليمي ذكي يجيب على أسئلة المتدربين من محتوى المقرر فقط، بالعربية أو الإنجليزية، مع ذكر المصادر.
 
-![CI](../../actions/workflows/ci.yml/badge.svg)
-
+[![CI](https://github.com/nora-albabtain/course-assistant-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/nora-albabtain/course-assistant-rag/actions/workflows/ci.yml)
 ---
 
 ## Why this project?
@@ -142,7 +141,7 @@ course-assistant-rag/
 
 ## Author
 
-**Nora Albabtain** — AI Instructor · [LinkedIn](https://linkedin.com/in/nora-albabtain-916017336)
+**Nora Albabtain** — AI Instructor · [GitHub](https://github.com/nora-albabtain) · [LinkedIn](https://linkedin.com/in/nora-albabtain-916017336)
 
 ## License
 
